@@ -1,0 +1,35 @@
+{
+  "name": "quicorporis",
+  "version": "1.0.0",
+  "license": "MIT",
+  "types": "index.d.ts",
+  "author": "IssacMayert",
+  "scripts": {
+    "lint": "eslint . --ext .ts",
+    "test": "tsc --noEmit",
+    "release": "changeset publish"
+  },
+  "dependencies": {
+    "@types/node": "*"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.16.0",
+    "@typescript-eslint/eslint-plugin": "^4.5.0",
+    "@typescript-eslint/parser": "^4.5.0",
+    "eslint": "^7.12.0",
+    "typescript": "^4.0.3"
+  },
+  "bugs": {
+    "url": "https://github.com/OraCartwright/quicorporis.git/issues"
+  },
+  "keywords": [
+    "rdf",
+    "rdf/js",
+    "rdfjs",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OraCartwright/quicorporis.git"
+  }
+}
